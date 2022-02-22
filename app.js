@@ -29,7 +29,7 @@ function display(){
 for (i = 0; i < arrayLength; i++) {
     const bar = document.createElement("div");
     bar.classList.add('bar');
-    bar.style.height = arr[i]*0.65 +'vh';
+    bar.style.height = arr[i]*0.6 +'vh';
     main.appendChild(bar);
 }
 }
