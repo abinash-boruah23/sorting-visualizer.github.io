@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visulizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="btn">
+        <div class="row1">
+            <button class="btn__new">Randomize</button>
+        </div>
+        <div class="row2">
+            <button class="btn__bubble">Bubble Sort</button>
+            <button class="btn__insert">Insertion Sort</button>
+            <button class="btn__select">Selection Sort</button>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slide">
+            <label for="speed">Speed</label>
+            <input type="range" min="0" max="150" name="speed" id="speed">
+        </div>
+        <div class="slide">
+            <label for="size">Size</label>
+            <input type="range" min="5" max="20" name="size" id="size">
+        </div> 
+    </div>
+    <div class="main">
+    </div>
+    <script src="./app.js"></script>
+    <script src="./bubble.js"></script>
+    <script src="./insert.js"></script>
+    <script src="./select.js"></script>
+</body>
+</html>
