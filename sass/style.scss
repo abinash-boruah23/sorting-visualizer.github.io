@@ -62,13 +62,13 @@ body{
 .slider{
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: 7vh;
 }
 .slide{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 1rem 2rem;
+    margin: -1rem 2rem;
     color: #612843;
     font-family: sans-serif;
     height: 2.5rem;

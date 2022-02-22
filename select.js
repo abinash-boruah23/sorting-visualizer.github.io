@@ -2,12 +2,20 @@ const select = document.querySelector(".btn__select");
 
 select.addEventListener('click',async function(){
     playSound();
+    random.disabled=true;
+    select.disabled=true;
+    insert.disabled=true;
+    bubble.disabled=true;
     await ssort();
     deleteChild();
     display();
     for( var q = 0; q< arrayLength;q++){
         x[q].style.backgroundColor = 'rgb(255, 206, 223)'
     }
+    random.disabled=false;
+    select.disabled=false;
+    insert.disabled=false;
+    bubble.disabled=false;
 })
 
 async function ssort(){
